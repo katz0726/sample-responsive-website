@@ -1,1 +1,18 @@
 @charset "UTF-8";
+
+body {
+  margin: 0;
+  background-color: #eeeeee;
+}
+
+.header {
+  height: 112px;
+  background-color: #ffffff;
+}
+
+.header-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 100%;
+}
