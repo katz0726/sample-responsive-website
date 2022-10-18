@@ -3,6 +3,7 @@
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width-device-width">
+    <link rel="icon" href="public/favicon.ico" />
 
     <title>サービス案内 | Boards</title>
 
@@ -12,7 +13,7 @@
     <!-- Font Awesome -->
     <script src="https://kit.fontawesome.com/c645960b6a.js" crossorigin="anonymous"></script>
 
-    <link rel="stylesheet" href="assets/stylesheets/style.css">
+    <link  rel="stylesheet" href="assets/stylesheets/style.css">
   </head>
 
   <body>
@@ -24,10 +25,19 @@
           </a>
         </div>
 
-        <button class="navbtn">
+        <button class="navbtn" onClick="document.querySelector('html').classList.toggle('open')">
           <i class="fas fa-bars"></i>
+          <i class="fas fa-times"></i>
           <span class="sr-only">MENU</span>
         </button>
+    
+        <nav class="nav">
+          <ul>
+            <li><a href="index.html">ホーム</a></li>
+            <li><a href="content.html">サービス案内</a></li>
+            <li><a href="#">お問い合わせ</a></li>				
+          </ul>
+        </nav>
       </div>
     </header>
 
